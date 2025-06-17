@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+body {
+    background: #ff7d3d;
+     font-family: "Jost", serif;
+
+    padding: 0;
+    
+}
+
+.body-pad{
+    padding:120px 80px;
+}
+
+.register-pad{
+     padding:0px;
+}
+
+.body-pad-login{
+      padding:0;
+}
+
+.heading-text {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cust_btn{
+  padding: 15px 30px;
+  font-size: 18px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  transition: .5s ease;
+  
+  
+}
+
+.cust_btn:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+
+}
+
+.cust-container{
+    padding:120px 80px;
+}
+
+
+/* //mobile responsive */
+
+
+@media (max-width: 780px) {
+
+  .cust_btn{
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  transition: .5s ease;
+  
+  
+}
+
+    .body-pad{
+    padding:120px 30px;
+}
+
+
+.body-pad-login{
+      padding:0;
+}
+
+.register-pad{
+     padding:0;
+}
+
+
+.cust-container{
+    padding:60px 30px 0px;
+}
+
+.navbar>.container-fluid{
+    justify-content: center !important;
+}
+
+
+}
+
