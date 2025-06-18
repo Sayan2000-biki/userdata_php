@@ -3,11 +3,11 @@
 function openCon(){
 
     $servername = "localhost";
-    $username = "u366674963_sayan";
+    $username = "u366674963_Namrata";
     // $username = "root";
 
     $password = "Nams@2000";
-    $db_name = " u366674963_contacts_db";
+    $db_name = " u366674963_data_db";
     // $db_name = "contact_db";
 
    
