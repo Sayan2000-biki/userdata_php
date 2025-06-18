@@ -3,9 +3,14 @@
 function openCon(){
 
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $db_name = "contact_db";
+    $username = "u366674963_sayan";
+    // $username = "root";
+
+    $password = "Nams@2000";
+    $db_name = " u366674963_contacts_db";
+    // $db_name = "contact_db";
+
+   
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $db_name);
