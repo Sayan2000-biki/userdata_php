@@ -7,7 +7,7 @@ function openCon(){
     // $username = "root";
 
     $password = "Nams@2000";
-    $db_name = " u366674963_data_db";
+    $db_name = "u366674963_data_db";
     // $db_name = "contact_db";
 
    
