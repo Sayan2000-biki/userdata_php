@@ -184,7 +184,7 @@
 
                 if(form_validate() == true && validate_phn() == true){
                      var formData = $(this).serialize(); // Serialize form data
-                     console.log(formData);
+                    //  console.log(formData);
 
                      $.ajax({
 
